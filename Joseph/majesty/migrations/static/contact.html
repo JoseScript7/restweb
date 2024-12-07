@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us - Winged Majesty</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&family=Gloock&display=swap" rel="stylesheet">
+        <style>
+            /* Ensuring body and html take full height */
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                font-family: 'Roboto', sans-serif;
+                background-color: #f8f8f8;
+                color: #333;
+            }
+            /* Flexbox to make the footer stick at the bottom */
+            body {
+                display: flex;
+                flex-direction: column;
+            }
+            main {
+                flex: 1; /* This makes the main content take up available space */
+                padding: 50px 20px;
+                text-align: center;
+                background-color: #ecf0f1;
+            }
+            .header {
+                display: flex;
+                justify-content: space-between;
+                padding: 20px;
+                background-color: black;
+                color: white;
+                align-items: center;
+            }
+            .logo h1 {
+                margin: 0;
+                font-family: 'Poppins', sans-serif;
+                font-size: 20px;
+            }
+            .logo img {
+                height: 40px;
+                width: auto;
+                margin-left: 10px;
+            }
+            .nav-container {
+                background-color: #34495e;
+                color: white;
+                border-bottom: 3px solid #f1c40f;
+            }
+            .nav-menu ul {
+                display: flex;
+                justify-content: center;
+                list-style: none;
+                padding: 10px 0;
+                margin: 0;
+            }
+            .nav-menu ul li {
+                margin: 0 20px;
+                cursor: pointer;
+            }
+            .nav-menu a {
+                text-decoration: none;
+                color: white;
+                font-size: 1.2em;
+            }
+            .contact-section h2 {
+                font-family: 'Poppins', sans-serif;
+                color: #2c3e50;
+                margin-bottom: 20px;
+            }
+            .contact-text {
+                font-size: 1.2em;
+                color: #7f8c8d;
+                margin-bottom: 30px;
+                line-height: 1.6;
+            }
+            .contact-info {
+                font-size: 1.2em;
+                color: #2c3e50;
+                margin-bottom: 20px;
+            }
+            footer {
+                background-color: #2c3e50;
+                color: white;
+                padding: 20px 0;
+                text-align: center;
+            }
+            footer a {
+                color: #f1c40f;
+                text-decoration: none;
+                margin: 0 10px;
+            }
+            footer a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img src="logo.png" alt="logo">   
+                <h1>Winged Majesty</h1>
+            </div>
+        </header>
+        <div class="nav-container">
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="home.html">HOME</a></li> 
+                    <li><a href="menu.html">MENU BOOK</a></li> 
+                    <li><a href="admin.html">ADMINISTRATION</a></li> 
+                    <li><a href="contact.html">CONTACT US</a></li> 
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <section class="contact-section">
+                <h2>Get In Touch with Winged Majesty</h2>
+                <p class="contact-text">
+                    At Winged Majesty, we believe in delivering an unforgettable experience, whether you're enjoying our delicious meals or connecting with our dedicated team. Our commitment to excellence and personalized service makes us more than just a place to eat – it's a journey. We are here to listen, help, and create memorable moments together. Your feedback, questions, or simply a hello, are always welcome!
+                </p>
+                <div class="contact-info">
+                    <p><strong>Phone:</strong> +91 98745 10125</p>
+                    <p><strong>Email:</strong> user@wingedmajesty.com</p>
+                    <p><strong>Contact address:</strong>456 Pegasus Street, Block B, 3rd Floor
+                        Silver Horizon Towers, Adyar
+                        Chennai, Tamil Nadu 600020
+                        India</p>
+                    
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Joseph C 2024 | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a></p>
+        </footer>
+    </body>
+</html>
