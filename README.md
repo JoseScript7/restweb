@@ -789,11 +789,8 @@ contact.html
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot 2024-12-10 135852-1.png>)
-![alt text](<Screenshot 2024-12-10 135906-1.png>)
-![alt text](<Screenshot 2024-12-10 135936-1.png>)
-![alt text](<Screenshot 2024-12-10 135945-1.png>)
-![alt text](<Screenshot 2024-12-10 135954-1.png>)
+
+
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
